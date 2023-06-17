@@ -21,6 +21,7 @@ p {
 }
 a {
 	text-decoration: none!important;
+
 }
 ul {
 	padding: 0;
@@ -30,6 +31,28 @@ ul {
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
+}
+
+hr{
+	border-radius: 5px;
+	background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2));
+	height: 20px; /* Adjust the height as needed */
+  	border: none; /* Remove the default border */
+}
+h3 em{
+	color: #144180;
+	font-style: normal;
+}
+p em{
+	color: goldenrod;
+	font-size: 50px;
+	font-style: normal;
+}
+
+.p_class{
+	font-size: xx-large;
+	color: #144180;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a.filled-button {
@@ -77,10 +100,49 @@ a.border-button:hover {
 	font-weight: 600;
 	color: #1e1e1e;
 }
-
+.welcome{
+	margin-top: 80px;
+}
+.welcome-section{
+	text-align: center;
+}
+.welcome-section:hover{
+	background-color:#f7eb8b;
+	color: #144180;
+}
+.welcome-section h4{
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0.25px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+.welcome-section em {
+	font-style: normal;
+	color:#144180;
+}
 .section-heading em {
 	font-style: normal;
 	color:#144180;
+}
+
+.about{
+	text-align: center;
+	margin-bottom: 80px;
+	margin-top: 40px;
+	background-color: #144180;
+	color: aliceblue;
+	border-radius: 10px;
+	padding: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.about:hover{
+	background-color:goldenrod;
+	color: #144180;
+	height: 200px;
+	font-size: 100px;
+	text-shadow: #144180;
 }
 
 .section-heading span {
@@ -761,7 +823,7 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 40px;
 }
 
 .callback-form .contact-form {
@@ -1088,7 +1150,7 @@ footer .contact-form button.filled-button:hover {
 
 .team {
 	background-color: #f7f7f7;
-	margin-top: 140px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 	padding: 120px 0px;
 }
@@ -1170,7 +1232,7 @@ footer .contact-form button.filled-button:hover {
   color: #1e1e1e;
 }
 .tabs-content {
-	margin-left: 30px;
+  margin-left: 30px;
   text-align: left;
   display: inline-block;
   transition: all 0.3s;
