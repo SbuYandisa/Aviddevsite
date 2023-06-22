@@ -928,10 +928,25 @@ ul.slick-dots {
 	color: #144180;
 }
 
+/*Thank you style*/
+.thank-you{
+	background-color: #144180;
+	text-align: center;
+	color: aliceblue;
+}
 
-
+.thank-you p{
+	color: #fff5cc;
+}
+.thank-you h{
+	font-weight: 700;
+	font-size: 30px;
+}
+.thank-you h1{
+	font-weight: 100;
+	font-size: 20px;
+}
 /* Partners Style */
-
 .contact-partners {
 	margin-top: -8px!important;
 }
