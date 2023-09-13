@@ -106,13 +106,21 @@ a.border-button:hover {
 .welcome-section{
 	text-align: center;
 }
-.welcome-section:hover{
-	background-color:#f7eb8b;
-	color: #144180;
+.welcome-section:hover h2{
+	color: aliceblue;
+}
+.welcome-section:hover em{
+	color: aliceblue;
+}
+
+.welcome-section:hover {
+	background-color:#144180;
+	color: aliceblue;
 }
 .welcome-section h4{
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 300;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	letter-spacing: 0.25px;
 	margin-bottom: 15px;
 	margin-top: 30px;
@@ -138,11 +146,12 @@ a.border-button:hover {
 }
 
 .about:hover{
-	background-color:goldenrod;
+	background-color:aliceblue;;
 	color: #144180;
 	height: 200px;
-	font-size: 100px;
-	text-shadow: #144180;
+}
+.about:hover h5{
+	font-size: 35px;
 }
 
 .section-heading span {
